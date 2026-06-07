@@ -614,7 +614,7 @@
  <div class="progress-bar-wrap">
  <div class="progress-label">
  <span>Overall Progress</span>
- <span id="progress-text">0 of 15 complete</span>
+ <span id="progress-text">0 of 16 complete</span>
  </div>
  <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
  </div>
@@ -632,7 +632,7 @@
  <span class="nav-num">1</span> Team Expectations
  </a>
  <a class="nav-item" id="nav-2" onclick="showPage('mod2')">
- <span class="nav-num">2</span> Greeter &amp; Event Flow
+ <span class="nav-num">2</span> Setup and Flow
  </a>
  <a class="nav-item" id="nav-3" onclick="showPage('mod3')">
  <span class="nav-num">3</span> Fingerstick SOP
@@ -644,34 +644,37 @@
  <span class="nav-num">5</span> Bayer A1c Now
  </a>
  <a class="nav-item" id="nav-6" onclick="showPage('mod6')">
- <span class="nav-num">6</span> Blood Pressure
+ <span class="nav-num">6</span> Bayer Glucometer
  </a>
  <a class="nav-item" id="nav-7" onclick="showPage('mod7')">
- <span class="nav-num">7</span> Waist Circumference
+ <span class="nav-num">7</span> Blood Pressure
  </a>
  <a class="nav-item" id="nav-8" onclick="showPage('mod8')">
- <span class="nav-num">8</span> BMI
+ <span class="nav-num">8</span> Waist Circumference
  </a>
  <a class="nav-item" id="nav-9" onclick="showPage('mod9')">
- <span class="nav-num">9</span> Cotinine
+ <span class="nav-num">9</span> BMI
  </a>
  <a class="nav-item" id="nav-10" onclick="showPage('mod10')">
- <span class="nav-num">10</span> Counseling &amp; Results
+ <span class="nav-num">10</span> Cotinine
  </a>
  <a class="nav-item" id="nav-11" onclick="showPage('mod11')">
- <span class="nav-num">11</span> Salesforce Data Entry
+ <span class="nav-num">11</span> Counseling &amp; Results
  </a>
  <a class="nav-item" id="nav-12" onclick="showPage('mod12')">
- <span class="nav-num">12</span> Hardware &amp; Software Policy
+ <span class="nav-num">12</span> Salesforce Data Entry
  </a>
  <a class="nav-item" id="nav-13" onclick="showPage('mod13')">
- <span class="nav-num">13</span> HIPAA &amp; Privacy
+ <span class="nav-num">13</span> Hardware &amp; Software Policy
  </a>
  <a class="nav-item" id="nav-14" onclick="showPage('mod14')">
- <span class="nav-num">14</span> Medical Emergency
+ <span class="nav-num">14</span> HIPAA &amp; Privacy
  </a>
  <a class="nav-item" id="nav-15" onclick="showPage('mod15')">
- <span class="nav-num">15</span> Knowledge Checks
+ <span class="nav-num">15</span> Medical Emergency
+ </a>
+ <a class="nav-item" id="nav-16" onclick="showPage('mod16')">
+ <span class="nav-num">16</span> Knowledge Checks
  </a>
  </div>
 
@@ -786,6 +789,11 @@
  <div class="desc">Professional standards and conduct guidelines for all US Wellness screening staff.</div>
  </div>
 
+ <div class="callout warn">
+ <span class="callout-icon">⚠️</span>
+ <div><strong>Before your event</strong> Complete this training module, including the Knowledge Check questions. Email a copy of your certificate to your Field Operations Manager or text it to <strong>301-926-6099</strong> <strong>Final Step:</strong> Schedule your training review call at <a href="https://uswellness.appointlet.com/s/eventreviewtraining" style="color:var(--usw-red);white-space:nowrap">[insert Appointlet link]</a> at least 3 days prior to your event.</div>
+ </div>
+
  <p style="font-size:14px;line-height:1.7;margin-bottom:16px">US Wellness clients work with us (and you) because we set a high bar for professionalism and courteousness. Be at your best and follow these simple guidelines:</p>
 
  <ul class="bullet-list">
@@ -798,7 +806,7 @@
 
  <div class="page-nav">
  <button class="btn secondary" onclick="showPage('welcome')">← Quick Reference</button>
- <button class="btn" onclick="showPage('mod2')">Next: Greeter &amp; Event Flow →</button>
+ <button class="btn" onclick="showPage('mod2')">Next: Setup and Flow →</button>
  </div>
  </div>
 
@@ -806,13 +814,8 @@
  <div class="page" id="page-mod2">
  <div class="module-header">
  <div class="module-tag">Module 02</div>
- <h2>Greeter &amp; Event Flow</h2>
+ <h2>Setup and Flow</h2>
  <div class="desc">Participant check-in, setup, dress code, and day-of logistics for US Wellness screening events.</div>
- </div>
-
- <div class="callout warn">
- <span class="callout-icon">⚠️</span>
- <div><strong>Before your event</strong> Complete this training module, including the Knowledge Check questions. Email a copy of your certificate to your Field Operations Manager or text it to <strong>301-926-6099</strong> <strong>Final Step:</strong> Schedule your training review call at <a href="#" style="color:var(--usw-red);white-space:nowrap">[insert Appointlet link]</a> at least 3 days prior to your event.</div>
  </div>
 
  <div class="section-title">Your Role as Greeter</div>
@@ -1118,15 +1121,100 @@
 
  <div class="page-nav">
  <button class="btn secondary" onclick="showPage('mod4')">← Module 3</button>
- <button class="btn" onclick="showPage('mod6')">Next: Blood Pressure →</button>
+ <button class="btn" onclick="showPage('mod6')">Next: Bayer Glucometer →</button>
  </div>
  </div>
 
- <!-- MODULE 5: OTHER SCREENINGS -->
- <!-- MODULE 5a: BLOOD PRESSURE -->
+ <!-- MODULE 6: BAYER GLUCOMETER -->
  <div class="page" id="page-mod6">
  <div class="module-header">
  <div class="module-tag">Module 06</div>
+ <h2>Bayer Contour Glucometer</h2>
+ <div class="desc">Blood glucose screening using the Bayer Contour Meter — quality control, testing procedure, error codes, and result interpretation.</div>
+ </div>
+
+ <div class="callout warn">
+ <span class="callout-icon">⚠️</span>
+ <div><strong>When to use the Bayer Glucometer</strong> At events where the CardioChek is only performing <strong>Total Cholesterol</strong> or <strong>TC + HDL</strong> (not a full lipid panel), the Bayer Contour Glucometer is used to obtain the glucose reading rather than using an eGlu strip for CardioChek. <strong>Do not stick the participant twice.</strong></div>
+ </div>
+
+ <div class="section-title">Before You Begin — Quality Control</div>
+ <p style="font-size:14px;line-height:1.7;margin-bottom:10px">Quality control (QC) is performed by US Wellness prior to sending equipment to events. Allow the instrument and strips 20 minutes to adjust to the location. Check expiration and discard dates on all test strips and control solution — discard dates are 6 months after opening, and the earlier date always takes precedence.</p>
+ <ol class="sop-list">
+ <li>Clean hands with antibacterial wipes or sanitizer. Apply latex-free exam gloves.</li>
+ <li>Check expiration and discard dates on the test strip container.</li>
+ <li>Remove one test strip. Close the bottle lid immediately. Inspect the strip — discard if torn or damaged.</li>
+ <li>Hold the strip with the <strong>gray end facing up</strong>. Insert the gray end into the test strip port. The meter will turn on and display a flashing blood drop when ready.</li>
+ <li>Gently rock the control solution bottle before opening. Squeeze a small drop onto a clean, non-absorbent surface (blood barrier mat). Do not apply directly from the bottle to the strip.</li>
+ <li>Immediately touch the <strong>tip</strong> of the test strip to the drop. Hold until the meter beeps. The meter will count down 5 seconds and display the result.</li>
+ <li>A check mark appears on the display — this confirms it is a control result only. It does <em>not</em> mean the result is in range.</li>
+ <li>Dispose of the test strip in the Sharps/biohazard container.</li>
+ <li>Compare the result to the reference range on the bottom of the test strip box. Record QC time and results on the US Wellness QC Log.</li>
+ <li>If any result is out of range, call USW at <strong>(866) 881-7607</strong> before testing any participants.</li>
+ <li>Repeat steps 1–10 using the LOW control solution.</li>
+ </ol>
+
+ <div class="callout danger">
+ <span class="callout-icon">🚫</span>
+ <div><strong>No patient tests may be performed on an instrument that has failed QC.</strong> If controls are outside acceptable limits after corrective action, call US Wellness at <strong>(866) 881-7607</strong> and do not use the device.</div>
+ </div>
+
+ <div class="section-title">Testing Procedure</div>
+ <ol class="sop-list">
+ <li>Clean hands with antibacterial wipes or sanitizer. Apply fresh latex-free exam gloves for each participant.</li>
+ <li>Check the expiration date on test strips. Remove one strip and close the bottle immediately.</li>
+ <li>Hold the strip with the <strong>gray end facing up</strong>. Insert the gray end into the test strip port. The meter turns on — wait for the flashing blood drop.</li>
+ <li>Select the side of a center finger of either hand. Hands should be warm to promote blood flow.</li>
+ <li>Clean the fingertip with an alcohol swab and dry thoroughly with gauze.</li>
+ <li>Hold the lancet device against the side of the fingertip and apply pressure. Press the release button to prick the finger. Dispose of the lancet in the Sharps container immediately.</li>
+ <li>Gently squeeze the finger to produce a large drop of blood. Wipe away the first drop with gauze and discard in the biohazard container.</li>
+ <li>Gently squeeze again until another drop appears. Place the meter next to the fingertip and touch the <strong>tip</strong> of the strip to the blood drop — blood wicks in automatically. Do not press the strip against skin or place blood on top of the strip.</li>
+ <li>After a beep, the meter counts down 5 seconds and displays the result. Apply a bandage to the participant's fingertip.</li>
+ <li>Record the result. Dispose of the test strip in the Sharps container.</li>
+ </ol>
+
+ <div class="section-title">Critical Result Thresholds</div>
+ <div class="two-col">
+ <div class="info-card">
+ <div class="card-title" style="color:var(--usw-danger)">HI / &gt; 600 mg/dL</div>
+ <p>Change gloves and repeat the test. If still reads HI, refer to emergency procedures and call <strong>866.881.7607</strong>.</p>
+ </div>
+ <div class="info-card">
+ <div class="card-title" style="color:var(--usw-danger)">LO / &lt; 10 mg/dL</div>
+ <p>Change gloves and repeat the test. If still reads LO, refer to emergency procedures and call <strong>866.881.7607</strong>.</p>
+ </div>
+ <div class="info-card">
+ <div class="card-title" style="color:var(--usw-warn)">&gt; 250 mg/dL</div>
+ <p>May indicate a potentially serious condition. Refer to talking points and emergency procedure.</p>
+ </div>
+ <div class="info-card">
+ <div class="card-title" style="color:var(--usw-warn)">&lt; 50 mg/dL</div>
+ <p>May indicate a potentially serious medical condition. Refer to talking points and emergency procedure.</p>
+ </div>
+ </div>
+
+ <div class="section-title">Error Codes</div>
+ <div class="troubleshoot-row"><div class="err">E1</div><div class="cause">Temperature out of range</div><div class="fix">Meter must be between 41–113°F. Move to an appropriate area and allow 20 minutes to adjust.</div></div>
+ <div class="troubleshoot-row"><div class="err">E2</div><div class="cause">Insufficient blood</div><div class="fix">Strip did not fill enough. Dispose and retest with a new strip. Wait for the flashing blood drop before retesting.</div></div>
+ <div class="troubleshoot-row"><div class="err">E3</div><div class="cause">Used test strip</div><div class="fix">Meter detected a used strip. Dispose and retest with a new strip.</div></div>
+ <div class="troubleshoot-row"><div class="err">E4</div><div class="cause">Strip not inserted correctly</div><div class="fix">Remove and reinsert with the gray end facing up into the test strip port.</div></div>
+ <div class="troubleshoot-row"><div class="err">E7</div><div class="cause">Incorrect sensor type</div><div class="fix">Remove and retest with a new strip. Confirm you are using a Bayer CONTOUR test strip.</div></div>
+ <div class="troubleshoot-row"><div class="err">E11</div><div class="cause">Abnormal result</div><div class="fix">Remove and retest with a new strip. Call 866.881.7607 if E11 appears a second time.</div></div>
+ <div class="troubleshoot-row"><div class="err">E5/E6/E8/E9/E12/E13</div><div class="cause">Software/hardware issue</div><div class="fix">Remove strip and reinsert with a new strip. Call 866.881.7607 if problem continues.</div></div>
+ <div class="troubleshoot-row"><div class="err">🔋 Battery</div><div class="cause">Dead battery</div><div class="fix">Battery icon flashes for 10 seconds and meter turns off. Replace battery before continuing.</div></div>
+
+ <div class="page-nav">
+ <button class="btn secondary" onclick="showPage('mod5')">← Bayer A1c Now</button>
+ <button class="btn" onclick="showPage('mod7')">Next: Blood Pressure →</button>
+ </div>
+ </div>
+
+ <!-- MODULE 7: BLOOD PRESSURE -->
+ <!-- MODULE 5: OTHER SCREENINGS -->
+ <!-- MODULE 5a: BLOOD PRESSURE -->
+ <div class="page" id="page-mod7">
+ <div class="module-header">
+ <div class="module-tag">Module 07</div>
  <h2>Blood Pressure</h2>
  <div class="desc">Manual blood pressure screening procedure, thresholds, and emergency protocols.</div>
  </div>
@@ -1165,15 +1253,15 @@
  </div>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod5')">← Module 4</button>
- <button class="btn" onclick="showPage('mod7')">Next: Waist Circumference →</button>
+ <button class="btn secondary" onclick="showPage('mod6')">← Bayer Glucometer</button>
+ <button class="btn" onclick="showPage('mod8')">Next: Waist Circumference →</button>
  </div>
  </div>
 
  <!-- MODULE 5b: WAIST CIRCUMFERENCE -->
- <div class="page" id="page-mod7">
+ <div class="page" id="page-mod8">
  <div class="module-header">
- <div class="module-tag">Module 07</div>
+ <div class="module-tag">Module 08</div>
  <h2>Waist Circumference</h2>
  <div class="desc">How to measure and record waist circumference accurately and sensitively.</div>
  </div>
@@ -1202,15 +1290,15 @@
  </div>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod6')">← Blood Pressure</button>
- <button class="btn" onclick="showPage('mod8')">Next: BMI →</button>
+ <button class="btn secondary" onclick="showPage('mod7')">← Blood Pressure</button>
+ <button class="btn" onclick="showPage('mod9')">Next: BMI →</button>
  </div>
  </div>
 
  <!-- MODULE 5c: BMI -->
- <div class="page" id="page-mod8">
+ <div class="page" id="page-mod9">
  <div class="module-header">
- <div class="module-tag">Module 08</div>
+ <div class="module-tag">Module 09</div>
  <h2>BMI</h2>
  <div class="desc">Body Mass Index — what it measures, what it doesn't, and how to counsel on results.</div>
  </div>
@@ -1257,15 +1345,15 @@
  </div>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod7')">← Waist Circumference</button>
- <button class="btn" onclick="showPage('mod9')">Next: Cotinine →</button>
+ <button class="btn secondary" onclick="showPage('mod8')">← Waist Circumference</button>
+ <button class="btn" onclick="showPage('mod10')">Next: Cotinine →</button>
  </div>
  </div>
 
  <!-- MODULE 5d: COTININE -->
- <div class="page" id="page-mod9">
+ <div class="page" id="page-mod10">
  <div class="module-header">
- <div class="module-tag">Module 09</div>
+ <div class="module-tag">Module 10</div>
  <h2>Cotinine</h2>
  <div class="desc">Oral cotinine swab test procedure, timing, and result interpretation.</div>
  </div>
@@ -1286,15 +1374,15 @@
  </div>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod8')">← BMI</button>
- <button class="btn" onclick="showPage('mod10')">Next: Counseling &amp; Results →</button>
+ <button class="btn secondary" onclick="showPage('mod9')">← BMI</button>
+ <button class="btn" onclick="showPage('mod11')">Next: Counseling &amp; Results →</button>
  </div>
  </div>
 
  <!-- MODULE 6: COUNSELING -->
- <div class="page" id="page-mod10">
+ <div class="page" id="page-mod11">
  <div class="module-header">
- <div class="module-tag">Module 10</div>
+ <div class="module-tag">Module 11</div>
  <h2>Counseling &amp; Results</h2>
  <div class="desc">How to deliver results effectively, privacy rules, and health education points for each screening value.</div>
  </div>
@@ -1386,16 +1474,16 @@
  </table>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod9')">← Cotinine</button>
- <button class="btn" onclick="showPage('mod11')">Next: Salesforce Data Entry →</button>
+ <button class="btn secondary" onclick="showPage('mod10')">← Cotinine</button>
+ <button class="btn" onclick="showPage('mod12')">Next: Salesforce Data Entry →</button>
  </div>
  </div>
 
  <!-- MODULE 7: KNOWLEDGE CHECKS -->
  <!-- MODULE 7: SALESFORCE DATA ENTRY -->
- <div class="page" id="page-mod11">
+ <div class="page" id="page-mod12">
  <div class="module-header">
- <div class="module-tag">Module 11</div>
+ <div class="module-tag">Module 12</div>
  <h2>Salesforce Data Entry</h2>
  <div class="desc">How to locate appointments, enter screening results, and complete participant records in Salesforce during a US Wellness event.</div>
  </div>
@@ -1416,15 +1504,15 @@
  </ul>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod10')">← Counseling &amp; Results</button>
- <button class="btn" onclick="showPage('mod12')">Next: Hardware &amp; Software Policy →</button>
+ <button class="btn secondary" onclick="showPage('mod11')">← Counseling &amp; Results</button>
+ <button class="btn" onclick="showPage('mod13')">Next: Hardware &amp; Software Policy →</button>
  </div>
  </div>
 
  <!-- MODULE 12: HARDWARE & SOFTWARE ACCEPTABLE USE -->
- <div class="page" id="page-mod12">
+ <div class="page" id="page-mod13">
  <div class="module-header">
- <div class="module-tag">Module 12</div>
+ <div class="module-tag">Module 13</div>
  <h2>Hardware &amp; Software Acceptable Use</h2>
  <div class="desc">USW policies governing the use of company-provided equipment, software, data, and communications systems.</div>
  </div>
@@ -1490,15 +1578,15 @@
  </ul>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod11')">← Salesforce Data Entry</button>
- <button class="btn" onclick="showPage('mod13')">Next: HIPAA &amp; Privacy →</button>
+ <button class="btn secondary" onclick="showPage('mod12')">← Salesforce Data Entry</button>
+ <button class="btn" onclick="showPage('mod14')">Next: HIPAA &amp; Privacy →</button>
  </div>
  </div>
 
  <!-- MODULE 13: HIPAA & PRIVACY -->
- <div class="page" id="page-mod13">
+ <div class="page" id="page-mod14">
  <div class="module-header">
- <div class="module-tag">Module 13</div>
+ <div class="module-tag">Module 14</div>
  <h2>HIPAA &amp; Privacy</h2>
  <div class="desc">Annual HIPAA training covering PHI protections, security responsibilities, password management, and compliance standards for all US Wellness staff.</div>
  </div>
@@ -1570,15 +1658,15 @@
  </div>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod12')">← Hardware &amp; Software Policy</button>
- <button class="btn" onclick="showPage('mod14')">Next: Medical Emergency →</button>
+ <button class="btn secondary" onclick="showPage('mod13')">← Hardware &amp; Software Policy</button>
+ <button class="btn" onclick="showPage('mod15')">Next: Medical Emergency →</button>
  </div>
  </div>
 
  <!-- MODULE 14: MEDICAL EMERGENCY PROTOCOL -->
- <div class="page" id="page-mod14">
+ <div class="page" id="page-mod15">
  <div class="module-header">
- <div class="module-tag">Module 14</div>
+ <div class="module-tag">Module 15</div>
  <h2>Medical Emergency Protocol</h2>
  <div class="desc">Immediate response procedures for medical emergencies, fainting, bleeding, and critical screening results at US Wellness events.</div>
  </div>
@@ -1656,15 +1744,15 @@
  </ol>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod13')">← HIPAA &amp; Privacy</button>
- <button class="btn" onclick="showPage('mod15')">Next: Knowledge Checks →</button>
+ <button class="btn secondary" onclick="showPage('mod14')">← HIPAA &amp; Privacy</button>
+ <button class="btn" onclick="showPage('mod16')">Next: Knowledge Checks →</button>
  </div>
  </div>
 
  <!-- MODULE 15: KNOWLEDGE CHECKS -->
- <div class="page" id="page-mod15">
+ <div class="page" id="page-mod16">
  <div class="module-header">
- <div class="module-tag">Module 15</div>
+ <div class="module-tag">Module 16</div>
  <h2>Knowledge Checks</h2>
  <div class="desc">Answer all 16 questions correctly to unlock your certificate of completion.</div>
  </div>
@@ -1936,7 +2024,7 @@
  </div>
 
  <div class="page-nav">
- <button class="btn secondary" onclick="showPage('mod14')">← Medical Emergency</button>
+ <button class="btn secondary" onclick="showPage('mod15')">← Medical Emergency</button>
 
 <script>
 // ── STATE ──────────────────────────────────────────────
@@ -1989,9 +2077,9 @@ const WRONG_FB = {
 // ── NAVIGATION ─────────────────────────────────────────
 const PAGE_TITLES = {
  welcome: 'Quick Reference',
- mod1: 'Module 1 · Greeter & Event Flow',
- mod2: 'Module 2 · Fingerstick SOP',
- mod3: 'Module 3 · CardioChek Plus',
+ mod1: 'Module 1 · Team Expectations',
+ mod2: 'Module 2 · Setup and Flow',
+ mod3: 'Module 3 · Fingerstick SOP',
  mod4: 'Module 4 · Bayer A1c Now',
  mod5: 'Module 5 · Blood Pressure',
  mod6: 'Module 6 · Waist Circumference',
